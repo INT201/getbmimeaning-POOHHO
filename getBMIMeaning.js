@@ -10,7 +10,7 @@ let BMI = calculateBMI(weight,height)
   }else if(BMI > 18.5 && BMI <= 24.9){
     return "Normal weight";
   }else {
-    return "Underweight";
+    return "Overweight";
   }
 }
 module.exports = getBMIMeaning
